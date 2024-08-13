@@ -1,0 +1,30 @@
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+    
+    *{
+        box-sizing: border-box;
+    }
+    
+    nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: row;
+    }
+    
+    nav ul li{
+    margin: 20px;
+    list-style: none;
+    font-family: Arial;
+    font-size: medium;
+    color: aliceblue;
+    }
+    
+    img{
+        width: 9rem;
+        margin: 1rem;
+    }
+    }
